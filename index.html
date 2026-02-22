@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./styles/light.css" />
     <link rel="icon" href="./images/favicon.ico" sizes="any" />
     <link rel="icon" href="./images/favicon.svg" type="image/svg+xml" />
-    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" />
     <title>Сложно сосредоточиться</title>
     <script src="./scripts/script.js"></script>
   </head>
@@ -70,6 +70,7 @@
             <a
               href="https://www.dana.org/article/multicosts-of-multitasking/"
               class="card__text-link"
+              target="_blank"
               >выяснили</a
             >, что мозгу тяжело концентрироваться даже на двух делах
             одновременно. А когда в поле внимания попадает несколько важных
@@ -135,13 +136,13 @@
           Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх
           секунд)
         </h2>
-        <p class="section__subtitle title-decor">
+        <h3 class="section__subtitle title-decor">
           5 простых (на самом деле не очень) советов
-        </p>
+        </h3>
         <article class="card">
-          <h3 class="card__title title-decor section-how__title-decor">
+          <h4 class="card__title title-decor section-how__title-decor">
             Представьте небо и облака
-          </h3>
+          </h4>
           <p class="card__text">
             Или листья в ручье. Тут дело в лёгкой медитации, которая помогает
             успокоиться. Ведь часто именно тревожные мысли о сложных задачах как
@@ -154,9 +155,9 @@
           </p>
         </article>
         <article class="card">
-          <h3 class="card__title title-decor section-how__title-decor">
+          <h4 class="card__title title-decor section-how__title-decor">
             Включите музыку
-          </h3>
+          </h4>
           <p class="card__text">
             Но не любую, и не любимую. Любимая может быть связана с сильными
             положительными эмоциями, которые тоже очень сильно отвлекают.
@@ -165,14 +166,15 @@
           </p>
         </article>
         <article class="card">
-          <h3 class="card__title title-decor section-how__title-decor">
+          <h4 class="card__title title-decor section-how__title-decor">
             Прогуляйтесь
-          </h3>
+          </h4>
           <p class="card__text">
             Или даже пробегитесь. Лучше найти парк или лес: один эксперимент
             <a
               href="https://www.sciencedirect.com/science/article/abs/pii/S0272494415000328"
               class="card__text-link"
+              target="_blank"
               >показал</a
             >, что созерцание природы повышает концентрацию, в то время как
             после просмотра городских пейзажей она наоборот понижается. Можно
@@ -182,9 +184,9 @@
           </p>
         </article>
         <article class="card">
-          <h3 class="card__title title-decor section-how__title-decor">
+          <h4 class="card__title title-decor section-how__title-decor">
             Хорошо ешьте
-          </h3>
+          </h4>
           <p class="card__text">
             Мы — не ваша бабушка, но это правда важно. Выбирайте продукты,
             которые препятствуют резким скачкам сахара в крови. Например, с
@@ -193,9 +195,9 @@
           </p>
         </article>
         <article class="card">
-          <h3 class="card__title title-decor section-how__title-decor">
+          <h4 class="card__title title-decor section-how__title-decor">
             Читайте
-          </h3>
+          </h4>
           <p class="card__text">
             Настоящие бумажные книги. Это правда помогает с концентрацией: чтобы
             прочитать пост в соцсети, достаточно нескольких минут или даже
@@ -207,38 +209,48 @@
 
       <section class="gallery">
         <h2 class="gallery__title title-decor">А можно в картинках?</h2>
-        <div class="gallery__content">
-          <img
-            src="./images/sunset.png"
-            alt="Пейзаж с закатом"
-            loading="lazy"
-            class="gallery__image"
-          />
-          <img
-            src="./images/ice-cream.png"
-            alt="Пейзаж с закатом"
-            loading="lazy"
-            class="gallery__image"
-          />
-          <img
-            src="./images/tape.png"
-            alt="Пейзаж с закатом"
-            loading="lazy"
-            class="gallery__image"
-          />
-          <img
-            src="./images/books.png"
-            alt="Пейзаж с закатом"
-            loading="lazy"
-            class="gallery__image"
-          />
-          <img
-            src="./images/street.png"
-            alt="Пейзаж с закатом"
-            loading="lazy"
-            class="gallery__image"
-          />
-        </div>
+        <ul class="gallery__content">
+          <li class="gallery__item">
+            <img
+              src="./images/sunset.png"
+              alt="Пейзаж с закатом"
+              loading="lazy"
+              class="gallery__image"
+            />
+          </li>
+          <li class="gallery__item">
+            <img
+              src="./images/ice-cream.png"
+              alt="Мороженое"
+              loading="lazy"
+              class="gallery__image"
+            />
+          </li>
+          <li class="gallery__item">
+            <img
+              src="./images/tape.png"
+              alt="Кассета"
+              loading="lazy"
+              class="gallery__image"
+            />
+          </li>
+          <li class="gallery__item">
+            <img
+              src="./images/books.png"
+              alt="Стопка книг"
+              loading="lazy"
+              class="gallery__image"
+            />
+          </li>
+          <li class="gallery__item">
+            <img
+              src="./images/street.png"
+              alt="Улица"
+              loading="lazy"
+              class="gallery__image"
+            />
+          </li>
+        </ul>
       </section>
     </main>
     <footer class="footer decorated-zone">
