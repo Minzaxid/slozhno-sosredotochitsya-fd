@@ -131,12 +131,6 @@
   background: var(--decor-color);
 }
 
-/* .header__description .title-decor {
-  margin-inline-end: 1px;
-  margin-inline-start: 5px;
-  margin-block-end: 3px;
-} */
-
 .hightlight {
   display: block;
 }
