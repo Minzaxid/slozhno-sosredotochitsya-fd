@@ -11,8 +11,9 @@
   --header-bg-color: #353430;
   --tile-color: #ffc2e6;
   --section-bg-color: #fff1f7;
-  --decor-color: #ff8dcb;
+  --decor-color: #353430;
   --text-card-title: #353430;
+  --opacity-color: rgba(53, 52, 48, 0.4);
 }
 
 .theme-light .page {
@@ -31,8 +32,9 @@
     --header-bg-color: #353430;
     --tile-color: #ffc2e6;
     --section-bg-color: #fff1f7;
-    --decor-color: #ff8dcb;
+    --decor-color: #353430;
     --text-card-title: #353430;
+    --opacity-color: rgba(53, 52, 48, 0.4);
   }
 
   .page {
